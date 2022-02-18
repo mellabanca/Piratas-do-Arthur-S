@@ -26,6 +26,7 @@ function setup() {
  
  torre = Bodies.rectangle(160, 350, 160, 310, options);
  World.add(world,torre);
+ angleMode(DEGREES);
  angulo=20;
  canhao=new Canhao (180,110,130,100,angulo);
  balacanhao = new BalaCanhao(canhao.x, canhao.y);
